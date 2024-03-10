@@ -1,0 +1,305 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 1250px) {
+  .container3{
+    display: flex;
+    flex-direction: column;
+  }
+  .main{
+
+  }
+}
+
+.container1 {
+  display: flex;
+}
+.container1 div img {
+}
+.container3 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.container3 a {
+  text-decoration: none;
+}
+.container3 li {
+  list-style-type: none;
+}
+.def {
+  margin-left: -200px;
+}
+
+.container2 ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+}
+.container2 ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: yellow;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+.container2 ul li a:hover::after {
+  width: 100%;
+}
+
+.container2 ul button {
+  padding: 10px;
+  border-radius: 25%;
+  background-color: yellow;
+}
+
+.cont {
+  display: flex;
+  width: 72%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+  line-height: 35px;
+}
+
+.cont2{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.cont2 video{
+  padding: 20px;
+}
+
+.cont2 video{
+  border-radius: 15px;
+}
+
+.cont11{
+  line-height: 29px;
+}
+
+.cont1b {
+  display: flex;
+}
+.cont1b button {
+  margin-right: 40px;
+}
+.cont1b button {
+  padding: 10px;
+  border-radius: 25%;
+  background-color: yellow;
+}
+
+.main {
+  background-image: url(https://media.istockphoto.com/id/1742384332/photo/conceptual-image-of-stairs-leading-to-light-bulb-on-blue-background.jpg?s=612x612&w=0&k=20&c=BIOy--sCzbHsbI37xZg4IoEnyzTviynxWjU4UY-Gazc=);
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1250px) {
+  .main{
+    height: 900px;
+  }
+}
+@media only screen and (max-width: 1052px) {
+  .main{
+    height: 1000px;
+  }
+}
+
+.main2 {
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+.main3 {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .main3{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main3{
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px;
+  }
+}
+
+.main3 div {
+  padding: 20px;
+}
+
+.main3 img {
+  width: 100%;
+}
+.main3 div {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.main4{
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+.abc{
+  margin-top: 150px;
+}
+
+.flex1{
+  display: flex;
+  align-items: center;
+}
+
+.flex1 h3{
+  color: blue;
+}
+
+.flex2 i{
+  font-size: 50px;
+  color: blue;
+  margin-right: 10px;
+}
+
+.main7{
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .main7{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .main7{
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px;
+  }
+}
+
+.main8{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1250px) {
+  .main8{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+}
+
+.shadow1 a{
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  padding: 15px;
+}
+
+.shadow2 {
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  padding: 4px;
+}
+
+.main9{
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1250px) {
+  .main9{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.main9 img{
+  width: 300px;
+}
+.main9a{
+}
+.main9b{
+  width: 100%;
+  background: #EFEFFE 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.main9b i{
+  color: rgb(62, 107, 62);
+  margin-right: 10px;
+}
+
+.btn1{
+  padding: 10px;
+  border-radius: 25%;
+  background-color: yellow;
+}
+
+.Foot1{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(29, 29, 99);
+  color: white;
+  margin-top: 70px;
+}
+.white1 input{
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.white1{
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  /* width: 60%; */
+}
+
+*{
+  font-family: sans-serif;
+}
+
